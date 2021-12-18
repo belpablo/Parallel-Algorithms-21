@@ -10,6 +10,17 @@
 
 using namespace std;
 
+// Write a parallel OpenMP program that finds the maximum value of a vector (one-dimensional array). 
+// Each thread should only store its maximum value; concurrent 
+// access to a shared variable that stores the maximum value is not allowed.
+//
+// Study the dependence of the runtime on the number of threads used (from 1 to 10) 
+// for a vector that contains at least 1,000,000 elements (the more, the better).
+//
+//The program should display on the screen: the number of threads, the execution time.
+//
+//Transfer the size of the vector through the argv [1] parameter.
+
 int main(int argc, char* argv[]) {
 
 	int N = atoi(argv[1]);
