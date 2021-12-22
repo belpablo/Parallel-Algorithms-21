@@ -1,10 +1,11 @@
 #include <mpi.h>
 #include <iostream>
-using namespace std;
 
+using namespace std;
 const int N = 1000000;
 
-int dot_product(int* a, int* b, int n) {
+int dot_product(int* a, int* b, int n)
+{
     int prod = 0;
     for (int i = 0; i < n; i++)
         prod += a[i] * b[i];
