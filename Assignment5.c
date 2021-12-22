@@ -1,4 +1,3 @@
-#include <iostream>
 #include "mpi.h"
 #define NTIMES 100
 using namespace std;
