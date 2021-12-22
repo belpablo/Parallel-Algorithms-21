@@ -45,7 +45,7 @@ int main(int argc, char **argv)
 				c[i][j] += a[i][k] * b[k][j];
 			}
 		}
-    }
+    	}
 
 	// end of timing
 	double end_time = MPI_Wtime() - start_time;
