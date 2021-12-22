@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 		}
 	}
   
-  //barrier process synchronization
+  	//barrier process synchronization
 	MPI_Barrier(MPI_COMM_WORLD); 
   
 	// start timing for each process
