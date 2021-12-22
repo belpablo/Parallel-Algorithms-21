@@ -6,9 +6,8 @@ int const N = 100;
 
 int main(int argc, char** argv)
 {
-    int rank, size, ibuf;
+    int rank, size;
     MPI_Status status;
-    float rbuf;
   
     // Initialize the MPI environment
     MPI_Init(&argc, &argv);
