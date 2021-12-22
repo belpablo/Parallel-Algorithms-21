@@ -1,4 +1,3 @@
-#include <iostream>
 #include <stdio.h>
 #include "mpi.h"
 using namespace std;
