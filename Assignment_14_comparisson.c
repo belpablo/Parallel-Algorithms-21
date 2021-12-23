@@ -1,3 +1,4 @@
+#include <iostream>
 #include <stdio.h>
 #include "mpi.h"
 #define n 1000
@@ -28,7 +29,7 @@ int main(int argc, char **argv)
   
 	// Print results
 	if (rank == 0) {
-		cout << "/nMax value using custom func: " << res_max << endl;
+		cout << "\nMax value using custom func: " << res_max << endl;
 	}
   
 	// Perform reduce using custom func
