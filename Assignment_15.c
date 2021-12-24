@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 	MPI_Group_rank(new_group, &new_rank);
 
 	//Display values: "rank =, newrank =, rbuf ="
-	cout << "Rank = " << rank << ", newrank = " << new_rank << ", rbuf = " << rbuf << endl;
+	cout << "\nOld rank = " << rank << ", new rank = " << new_rank << ", rbuf = " << rbuf << endl;
 
 	MPI_Finalize();
 }
