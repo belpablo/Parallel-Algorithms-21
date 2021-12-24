@@ -16,6 +16,7 @@ int main(int argc, char** argv)
 		MPI_Comm_size(MPI_COMM_WORLD, &size);
 		MPI_Send(&size, 1, MPI_INT, 0, rank, intercomm);
 	}
+	
 	MPI_Finalize();
 	return 0;
 }
